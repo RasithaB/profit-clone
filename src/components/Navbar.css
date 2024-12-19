@@ -1,0 +1,51 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fff; /* Background color removed (set to white) */
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .logo {
+    height: 40px; /* Adjust logo size */
+    width: auto;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .demo-button {
+    background-color: #ff6200;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .demo-button:hover {
+    background-color: #e65a00;
+  }
+  
